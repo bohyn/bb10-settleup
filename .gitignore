@@ -1,0 +1,5 @@
+.settings/*
+assets/.assets.index
+arm/*
+x86/*
+translations/*.qm
