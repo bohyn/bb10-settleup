@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<qnx xmlns="http://www.qnx.com/schemas/application/1.0">
+    <id>com.example.settleup-qtc</id>
+    <name>settleup-qtc</name>
+    <versionNumber>1.0.0</versionNumber>
+    <description>DESCRIPTION</description>
+    <initialWindow>
+        <systemChrome>none</systemChrome>
+        <transparent>false</transparent>
+        <autoOrients>true</autoOrients>
+        <aspectRatio>landscape</aspectRatio>
+    </initialWindow>
+    <copyright>COPYRIGHT</copyright>
+    <env var="QML_IMPORT_PATH" value="app/native/imports:/usr/lib/qt4/imports"/>
+    <env var="QT_PLUGIN_PATH" value="app/native/plugins:/usr/lib/qt4/plugins"/>
+    <env var="LD_LIBRARY_PATH" value="app/native/lib:/usr/lib/qt4/lib/"/>
+    <arg>-style</arg>
+    <arg>qnxlight</arg>
+    <action system="true">run_native</action>
+    <!-- settleup should point to the project binary, path can be relative -->
+    <asset path="%SRC_DIR%/icon.png">icon.png</asset>
+    <asset path="%SRC_DIR%/assets">assets</asset>
+    <asset entry="true" type="Qnx/Elf" path="settleup">settleup</asset>
+    <author>PUBLISHER</author>
+</qnx>
