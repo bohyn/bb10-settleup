@@ -14,3 +14,4 @@ HEADERS +=  $$PWD/GroupRelatedModelBase.h \
 			$$PWD/blink/qmlblink.h \
 			$$PWD/dbinfo.h \
 
+include(subsetsum/subsetsum.pri)
