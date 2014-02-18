@@ -145,7 +145,7 @@ void ApplicationUI::onSystemLanguageChanged()
     QCoreApplication::instance()->removeTranslator(m_pTranslator);
     // Initiate, load and install the application translation files.
     QString locale_string = QLocale().name();
-    QString file_name = QString("fairbill_%1").arg(locale_string);
+    QString file_name = QString("settleup_%1").arg(locale_string);
     if (m_pTranslator->load(file_name, "app/native/qm")) {
         QCoreApplication::instance()->installTranslator(m_pTranslator);
     }
@@ -224,7 +224,7 @@ bool ApplicationUI::initDatabase()
 
 void ApplicationUI::registerQmlTypes()
 {
-    qmlRegisterType<GroupsModel>("fairbill", 1, 0, "GroupsModel");
-    qmlRegisterType<MembersModel>("fairbill", 1, 0, "MembersModel");
-    qmlRegisterType<TransactionsModel>("fairbill", 1, 0, "TransactionsModel");
+    qmlRegisterType<GroupsModel>("settleup", 1, 0, "GroupsModel");
+    qmlRegisterType<MembersModel>("settleup", 1, 0, "MembersModel");
+    qmlRegisterType<TransactionsModel>("settleup", 1, 0, "TransactionsModel");
 }

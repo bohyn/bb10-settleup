@@ -30,7 +30,7 @@
 
     <!-- The name that is displayed in the BlackBerry 10 application installer.
          May have multiple values for each language. See samples or xsd schema file. Optional. -->
-    <name>fairbill</name>
+    <name>Settle Up for BB10</name>
 
     <!-- A string value of the format <0-999>.<0-999>.<0-999> that represents application version which can be used to check for application upgrade.
          Values can also be 1-part or 2-part. It is not necessary to have a 3-part value.
@@ -46,7 +46,7 @@
 
     <!-- Description, displayed in the BlackBerry 10 application installer.
          May have multiple values for each language. See samples or xsd schema file. Optional. -->
-    <description>The fairbill application</description>
+    <description>The Settle Up for BB10 application</description>
 
     <!-- Copyright information. Optional. -->
     <!-- <copyright></copyright> -->
@@ -56,20 +56,20 @@
     <author>Martin Bohacek</author>
     <configuration name="Device-Debug">
        <platformArchitecture>armle-v7</platformArchitecture>
-       <asset path="arm/o.le-v7-g/fairbill" entry="true" type="Qnx/Elf">fairbill</asset>
+       <asset path="arm/o.le-v7-g/settleup" entry="true" type="Qnx/Elf">settleup</asset>
     </configuration>
     <configuration name="Device-Release">
        <entryPointType>Qnx/Cascades</entryPointType>
        <platformArchitecture>armle-v7</platformArchitecture>
-       <asset path="arm/o.le-v7/fairbill.so" entry="true" type="Qnx/Elf">fairbill.so</asset>
+       <asset path="arm/o.le-v7/settleup.so" entry="true" type="Qnx/Elf">settleup.so</asset>
     </configuration>
     <configuration name="Device-Profile">
        <platformArchitecture>armle-v7</platformArchitecture>
-       <asset path="arm-p/o.le-v7-g/fairbill" entry="true" type="Qnx/Elf">fairbill</asset>
+       <asset path="arm-p/o.le-v7-g/settleup" entry="true" type="Qnx/Elf">settleup</asset>
     </configuration>
     <configuration name="Simulator-Debug">
        <platformArchitecture>x86</platformArchitecture>
-       <asset path="x86/o-g/fairbill" entry="true" type="Qnx/Elf">fairbill</asset>
+       <asset path="x86/o-g/settleup" entry="true" type="Qnx/Elf">settleup</asset>
     </configuration>
 
     <!--  Unique author ID assigned by signing authority. Required if using debug tokens. -->

@@ -15,7 +15,7 @@
  */
 
 import bb.cascades 1.2
-import fairbill 1.0
+import settleup 1.0
 
 TabbedPane {
     tabs: [

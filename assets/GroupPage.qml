@@ -1,6 +1,6 @@
 import bb.cascades 1.2
 import bb.system 1.0
-import fairbill 1.0
+import settleup 1.0
 
 Page {
     signal deleteTriggered()
